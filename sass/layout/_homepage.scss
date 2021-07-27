@@ -1,0 +1,53 @@
+.fontionnement__cards{ 
+    background-color: #f2f2f2;
+    width: 335px;
+    height: 80px;
+    border-radius: 17px;
+    box-shadow: 2px 2px 15px #f2f2f2;
+    transition: 0.3s;
+    display: flex;
+    align-items: baseline;
+    &__icone i{
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 50%;
+    }
+    &__text{
+        margin-top: 50%;
+    }
+  
+}
+.fonctionnement__icone i{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50%;
+}
+.fontionnement__text{
+    margin-top: 50%;
+}
+
+
+.fa-utensils, .fa-hands-helping{
+color: white;
+}
+.restaurant{
+    background-color: #f6f6f6;
+}
+.restaurant_cards{
+background-color: white;
+width: 335px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+border-radius: 17px;
+margin-bottom: 30px;
+box-shadow: 1px 1px 15px #f2f2f2;
+transition: 0.3s;
+
+}
+.restaurant_thumb {
+    object-fit: cover;
+    height: 175px;
+    width: 100%;
+    border-radius: 17px 17px 0px 0px;
+}
