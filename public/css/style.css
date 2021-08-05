@@ -25,6 +25,10 @@ body, html {
   text-align: center;
 }
 
+.fa-store {
+  color: #9356DC;
+}
+
 .footer {
   background-color: #353535;
 }
@@ -137,6 +141,9 @@ body, html {
   display: flex;
   position: relative;
 }
+.tuto__step:last-child {
+  background-color: #f5edff;
+}
 @media (min-width: 64rem) {
   .tuto__step {
     flex: 1;
@@ -170,6 +177,10 @@ body, html {
 .tuto__icon {
   margin-right: 1rem;
   color: #7e7e7e;
+}
+.tuto__icon__last {
+  margin-right: 1rem;
+  color: #9356DC;
 }
 
 .restaurants {

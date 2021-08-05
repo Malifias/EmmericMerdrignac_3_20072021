@@ -60,6 +60,10 @@
       background-color: #f6f6f6;
       display: flex;
       position: relative;
+
+      &:last-child {
+        background-color: #f5edff;
+      }
   
       @media (min-width:64rem) {
         flex: 1;
@@ -98,6 +102,10 @@
     &__icon {
       margin-right: 1rem;
       color: #7e7e7e;
+      &__last{
+        margin-right: 1rem;
+        color: $color-primary;
+      }
     }
   }
   

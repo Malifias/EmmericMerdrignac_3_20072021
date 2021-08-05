@@ -15,6 +15,10 @@ body, html {
         text-align: center;
       }    
   } 
+
+  .fa-store{
+  color: $color-primary;
+  }
   @mixin button($type) {
     border: 0;
     padding: 0.75rem 1.5rem;
