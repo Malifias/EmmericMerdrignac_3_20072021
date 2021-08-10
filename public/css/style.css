@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
-
 @-webkit-keyframes fade-in-bottom {
   0% {
     -webkit-transform: translateY(50px);
@@ -213,6 +212,13 @@ body, html {
   display: flex;
   position: relative;
 }
+.tuto__step:hover {
+  background-color: #f5edff;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.tuto__step:hover i {
+  color: #9356DC;
+}
 @media (min-width: 64rem) {
   .tuto__step {
     flex: 1;
@@ -222,6 +228,9 @@ body, html {
   .tuto__step:first-child {
     margin-left: 0.75rem;
   }
+}
+.tuto__step__step:hover {
+  background-color: #f5edff;
 }
 .tuto__step:first-child {
   margin-top: 0;

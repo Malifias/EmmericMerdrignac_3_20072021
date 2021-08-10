@@ -97,7 +97,7 @@
       display: flex;
     }
   }
-
+  
   &__step {
     padding: 1.5rem;
     margin: 1rem 0 1rem 0.75rem;
@@ -106,6 +106,13 @@
     background-color: #f6f6f6;
     display: flex;
     position: relative;
+      &:hover{
+        background-color: #f5edff;
+        box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.150); 
+      }
+      &:hover i{
+        color: $color-primary;
+      }
 
     @media (min-width:64rem) {
       flex: 1;
@@ -116,6 +123,9 @@
         margin-left: 0.75rem;
       }
     }
+  &__step:hover{
+    background-color:#f5edff;
+  }
 
     &:first-child {
       margin-top: 0;
